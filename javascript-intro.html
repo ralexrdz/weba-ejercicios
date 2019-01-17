@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Hola</h1>
+  <script>
+    // let x = prompt('escribe algo sonso', 'ÑO!')
+    // imprime(123, callbacker(10));
+
+    setTimeout(function {
+      console.log('hola')
+    }, 1000)
+
+    // setT
+    let otroArreglo = ['a', 'b', 'c']
+    let arreglo = [1,2,3,4,5]
+
+    function imprime(param, call) {
+      console.log(param)
+      console.log(call(param))
+    }
+
+    function callbacker (param = 'hola', p2= 123, p3 = true, ...resto) {
+      console.log(param)
+      console.log(p2)
+      console.log(p3)
+      console.log(resto)
+      console.log('hola')
+    }
+
+  </script>
+</body>
+</html>
